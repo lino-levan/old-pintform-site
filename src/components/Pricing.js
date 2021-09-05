@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import '../styling/App.css'
 
 function Pricing() {
@@ -18,7 +20,7 @@ function Pricing() {
                     <li>Partial access to tasks</li>
                 </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
+                <div className='card-button'><Link to="/construction" className='button-filled'>Sign Up</Link></div>
             </div>
             <div className='card'>
                 <h3>Pro</h3>
@@ -38,7 +40,7 @@ function Pricing() {
                     <li>Limited File Uploads</li>
                 </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
+                <div className='card-button'><Link to="/construction" className='button-filled'>Sign Up</Link></div>
             </div>
             <div className='card'>
                 <h3>Business</h3>
@@ -61,7 +63,7 @@ function Pricing() {
                     <li>Priority Support</li>
                     </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Contact Sales</a></div>
+                <div className='card-button'><Link to="/construction" className='button-filled'>Contact Sales</Link></div>
             </div>
         </div>
     );
