@@ -15,7 +15,7 @@ function Demo() {
                         <h1>Communism</h1>
                     </div>
                     <div className='center'>
-                        <iframe title='Communism Form' src='https://forms.pintform.com/communism' style={{width: '400px', height:'700px', border: '1px solid black', borderRadius: '10px'}}></iframe>
+                        <iframe title='Communism Form' src='https://forms.pintform.com/communism' style={{width: '400px', height:'700px', border: '0px',boxShadow: 'rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 2px 12px 0px', borderRadius: '10px'}}></iframe>
                     </div>
                 </div>
             </section>
