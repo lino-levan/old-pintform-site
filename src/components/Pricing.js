@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import '../styling/App.css'
 
 function Pricing() {
@@ -11,8 +9,8 @@ function Pricing() {
                 <div>
                 <ul>
                     <li>1 User</li>
-                    <li>Up to 1000 Responses</li>
-                    <li>Up to 100 Forms</li>
+                    <li>Up to 1000 Responses / Month</li>
+                    <li>Up to 10 Forms / Month</li>
                     <li>Unlimited Questions</li>
                     <li>Full access to editor</li>
                     <li>No Pintform Branding</li>
@@ -20,16 +18,16 @@ function Pricing() {
                     <li>Partial access to tasks</li>
                 </ul>
                 </div>
-                <div className='card-button'><Link to="/construction" className='button-filled'>Sign Up</Link></div>
+                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
             </div>
             <div className='card'>
                 <h3>Pro</h3>
                 <p>$10 / user / month</p>
                 <div>
                 <ul>
-                    <li>3 Users</li>
-                    <li>Up to 10000 Responses</li>
-                    <li>Up to 1000 Forms</li>
+                    <li>10 Users</li>
+                    <li>Up to 10000 Responses / Month</li>
+                    <li>Up to 100 Forms / Month</li>
                     <li>Unlimited Questions</li>
                     <li>Full access to editor</li>
                     <li>No Pintform Branding</li>
@@ -40,7 +38,7 @@ function Pricing() {
                     <li>Limited File Uploads</li>
                 </ul>
                 </div>
-                <div className='card-button'><Link to="/construction" className='button-filled'>Sign Up</Link></div>
+                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
             </div>
             <div className='card'>
                 <h3>Business</h3>
@@ -63,7 +61,7 @@ function Pricing() {
                     <li>Priority Support</li>
                     </ul>
                 </div>
-                <div className='card-button'><Link to="/construction" className='button-filled'>Contact Sales</Link></div>
+                <div className='card-button'><a href='/sign-up' className='button-filled'>Contact Sales</a></div>
             </div>
         </div>
     );
