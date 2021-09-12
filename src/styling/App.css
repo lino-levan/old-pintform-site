@@ -46,9 +46,8 @@
 
 .card {
     margin: 10px;
-    border: 1px solid var(--dark-color);
     border-radius: 10px;
-    box-shadow: 0px 0px 20px #aaaaaa;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px, rgba(0, 0, 0, 0.06) 0px 2px 12px 0px;
     background-color: white;
 
     width: 300px;
@@ -60,7 +59,7 @@
     align-items: center;
 
 
-    transition: transform 0.1s ease-in;
+    transition: all 0.1s ease-in;
 }
 
 .card-button {
@@ -69,7 +68,8 @@
 }
 
 .card:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px 0px, rgba(0, 0, 0, 0.12) 0px 2px 12px 0px;
 }
 
 .button {

@@ -1,11 +1,13 @@
+import {default as PricingComponent} from '../components/Pricing'
+
 function Pricing() {
     return (
         <div>
-            <section className='section' style={{marginTop: '45px'}}>
+            <section className='section' style={{marginTop: '45px', backgroundColor: '#f8f8f8'}}>
                 <div className='center'>
                     <h1>Choose a plan that works for you</h1>
                 </div>
-                <Pricing></Pricing>
+                <PricingComponent></PricingComponent>
             </section>
         </div>
     );

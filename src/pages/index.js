@@ -19,7 +19,7 @@ function Index() {
             <section className='section center' style={{backgroundColor:'var(--highlight-color)'}}>
                 <h1>Easy logic, Great support, Fast updates</h1>
             </section>
-            <section className='section'>
+            <section className='section' style={{backgroundColor: '#f8f8f8'}}>
                 <div className='center'>
                     <h1>Choose a plan that works for you</h1>
                 </div>
