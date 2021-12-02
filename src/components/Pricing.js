@@ -18,7 +18,7 @@ function Pricing() {
                     <li>Partial access to tasks</li>
                 </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
+                <div className='card-button'><a href='https://webapp.pintform.com/login' className='button-filled'>Sign Up</a></div>
             </div>
             <div className='card'>
                 <h3>Pro</h3>
@@ -38,7 +38,7 @@ function Pricing() {
                     <li>Limited File Uploads</li>
                 </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Sign Up</a></div>
+                <div className='card-button'><a href='https://webapp.pintform.com/login' className='button-filled'>Sign Up</a></div>
             </div>
             <div className='card'>
                 <h3>Business</h3>
@@ -61,7 +61,7 @@ function Pricing() {
                     <li>Priority Support</li>
                     </ul>
                 </div>
-                <div className='card-button'><a href='/sign-up' className='button-filled'>Contact Sales</a></div>
+                <div className='card-button'><a href='https://webapp.pintform.com/login' className='button-filled'>Contact Sales</a></div>
             </div>
         </div>
     );
